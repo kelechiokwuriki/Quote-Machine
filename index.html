@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quote Machine</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container text-center">
+    <div class="jumbotron">
+        <h1>Random Quote Machine</h1>
+    </div>
+    <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8 well">
+            <blockquote id="quote" class="message center-block text-center">A wise man once said nothing </blockquote>
+            <footer id="quoteSource" class="source">&mdash;&nbsp;&nbsp;Unknown</footer><br>
+            <div class='row center-block text-center'>
+                <a id="tweet" href="https://twitter.com/intent/tweet" title='Tweet this!' data-size="large" target="_blank"><button type="button" class="btn btn-primary"><i class='fa fa-twitter ico-twitter'></i>&nbsp;Tweet</button></a>
+                <button type="button" id="newQuote" class="btn btn-primary">New quote</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

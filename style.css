@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+    background-color: black;
+}
+
+.source{
+    font-style: italic;
+    font-size:1.5vw;
+    font-family:Courgette,cursive;
+}
+
+.message{
+    font-size: 3vw;   
+}
+
+.fa-twitter{
+    color:#00aced;
+}
+
+
+
